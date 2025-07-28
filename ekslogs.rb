@@ -1,8 +1,8 @@
 class Ekslogs < Formula
   desc "A fast and intuitive CLI tool for retrieving and monitoring Amazon EKS cluster Control Plane logs"
   homepage "https://github.com/kzcat/ekslogs"
-  url "https://github.com/kzcat/ekslogs/archive/refs/tags/v0.1.6-test.tar.gz"
-  sha256 "3478b7a46ba2c90539479ab92d51b840d1e2388a2cc3090e59ffdc7f114bea51"
+  url "https://github.com/kzcat/ekslogs/archive/refs/tags/v0.1.6.tar.gz"
+  sha256 "4550f4542322aea2018c4e1616493ae6894f5e1512782011d08586318db73d1c"
   license "MIT"
   
   depends_on "go" => :build
